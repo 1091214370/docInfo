@@ -1,0 +1,108 @@
+/* create by xch  2018/7/20 */
+a:active {
+  color: #108EE9!important;
+}
+html,
+body {
+  min-width: 1200px;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+table, thead, tbody, tfoot, th, td {
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+}
+figure {
+  table, thead, tbody, tfoot, th, td {
+    border: none;
+  }
+}
+a {
+  text-decoration: none;
+}
+.header {
+ width: 100%;
+ border-bottom: 1px solid #ccc;
+  .nav {
+    width: 100%;
+    height: 20px;
+    background-color: #232940;
+  }
+  .top {
+    height: 62px;
+    padding: 10px 10% 0 10%;
+    a {
+      display: inline-block;
+    }
+    .logo {
+      float: left;
+      width: 182px;
+    }
+    .links {
+      float: right;
+      width: 50%;
+      text-align: left;
+      ul {
+        margin: 0;
+        li {
+          display: inline-block;
+          margin-right: 30px;
+          a {
+            color: #000;
+            font-size: 14px;
+            line-height: 50px;
+          }
+        }
+      }
+    }
+  }
+}
+.main {
+  position: relative;
+  width: auto;
+  min-height: 80%;
+  .slider {
+    position: absolute;
+    width: 230px;
+    height: 100%;
+    overflow-y: auto;
+    left: 0;
+    top: 0;
+    padding-right: 40px;
+    border-right: 1px solid #ccc;
+    .tree {
+      .widget {
+        margin: 10px auto;
+        h2 {
+          text-align: center;
+        }
+        .item-line {
+          width: 200px;
+          margin: auto;
+          color: red!important;
+          .item-line {
+            margin-left: 8px;
+          }
+          .item-link {
+            display: block;
+            margin-left: 8px;
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+  .content {
+    position: relative;
+    left: 0;
+    top: 0;
+    margin-left: 270px;
+    padding: 10px 5%;
+  }
+}
+.footer {
+  width: 100%;
+  height: 15%;
+  background-color: #232940;
+}

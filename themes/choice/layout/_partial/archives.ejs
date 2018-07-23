@@ -1,0 +1,20 @@
+<div class="tree">
+  <div class="widget">
+    <h2 class="title">目 录</h2>
+    <div class="list">
+    <% if (site.categories.length) {
+      site.categories.each( categorie => {
+        if (!categorie.parent) { %>
+          <div id='<%=categorie._id %>' class='item-line'><%=categorie.name %>
+            <% if (categorie.posts.length) {
+              categorie.posts.each( post =>{ %>
+                <a href='/doc/<%=post.path %>' id='<%=post._id %>' class='item-link'><%=post.title %></a>
+              <% }) %>
+            <% } %>
+          </div>
+        <% } %>
+      <% }) %>
+    <% } %>
+    </div>
+  </div>
+</div>

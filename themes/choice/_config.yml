@@ -1,0 +1,15 @@
+# Header
+menu:
+  Home: /
+  Docs: /hello-world/
+
+# site
+favicon: /img/favicon.ico
+logo: /img/logo.png
+language: zh-CN
+
+# Sidebar
+sidebar: left
+widgets:
+- category
+
