@@ -1,11 +1,10 @@
 ---
-title: hexo入门教程--本地环境搭建
-date: 2018-07-19 13:31:47
-tags: 入门教程
+title: 本地环境搭建
+date: 2018-07-23 15:23:58
 categories:
-- hexo入门教程--本地环境搭建
+- hexo入门教程
+top: 2
 ---
-
 ## 简介
 Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。
 
@@ -114,4 +113,3 @@ hexo g
 `hexo d -g` 和 `hexo g -d`功能一样，都可以完成生成静态文件并完成部署。
 
 更多指令请点击[这里](https://hexo.io/zh-cn/docs/commands.html)
-

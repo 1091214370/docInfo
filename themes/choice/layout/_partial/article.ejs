@@ -4,4 +4,16 @@
   <div class="article-entry" itemprop="articleBody">
     <%- item.content %>
   </div>
+  <div class='page'>
+    <div class='pageBox pageNext'>
+      <% if(item.next && item.next.path) {%>
+        <a href='<%- url_for(item.next.path) %>'>上一篇：<%=item.next.title %></a>
+      <% } %>
+    </div>
+    <div class='pageBox pagePrev'>
+      <% if(item.prev && item.prev.path) {%>
+        <a href='<%- url_for(item.prev.path) %>'>下一篇：<%=item.prev.title %></a>
+      <% } %>
+    </div>
+  </div>
 </article>
